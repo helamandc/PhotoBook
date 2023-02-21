@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhotoBookProject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,14 +7,10 @@ using System.Threading.Tasks;
 
 namespace PhotoBook
 {
-    public class PhotoBook
+    public class BigPhotoBook : PhotoBookClass
     {
-        private int numPages;
-
-        public int GetNumberPages()
+        public BigPhotoBook(int defaultPage) : base(defaultPage)
         {
-            return numPages;
         }
-
     }
 }
