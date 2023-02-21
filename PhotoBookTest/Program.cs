@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace PhotoBookTest
 {
+    //https://www.exercisescsharp.com/oop/photo-book-class
     internal class Program
     {
         static void Main(string[] args)
